@@ -1,0 +1,21 @@
+Steps to run the project
+
+## Kmeans
+The default python provided in (Ana)Conda is not a framework build.  To use this install python.app conda install python.app and use pythonw rather than python
+
+python kmeans.py -f <dataset> -e <no of clusters>
+example: pythonw k_means.py -f "../../data/dermatologyData.csv" -e 10
+	data/dermatologyData.csv
+	data/vowelsData.csv
+	data/glassData.csv
+	data/ecoliData.csv
+	data/yeastData.csv
+	data/soybeanData.csv
+	
+
+
+#GMM 
+python gausEM.py -f <dataset> -e <no of clusters>
+
+example: pythonw gausEM.py -f "../../data/soybeanData.csv" -e 11
+
